@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<!-- Head -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Gabe Larson</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/Myportfolio.css"
+    </head>
+
+<!-- End Head -->
+
+<!-- Body -->
+
+    <body class="Background">
+
+        <!-- Nav -->
+
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">Github</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!-- End Nav -->
+        
+        <br> <!--for spacing between Nav and first heading-->
+        <br> <!--for spacing between Nav and first heading-->
+
+        <!-- Background Video -->
+
+        <div id="Home">
+            <video autoplay muted loop id="Hello_world">
+                <source src="Hello World - 28320.mp4" type="video/mp4">
+                <!-- Display message if video doesn't work -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- End Background Video -->
+
+
+        <!-- Video text -->
+
+        <div class="Video_Text">
+            <h1 class="white-text">Gabe's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <br> My name is Gabe. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!-- End Video Text -->
+
+        <!-- About Section -->
+
+        <div class="Row" id="About">
+            <!-- Left Column -->
+            <div class="Column_2">
+                <img src="./Images/pexels-pixabay-270360.jpg" alt="HTML photo">
+            </div>
+            <!-- Right Column -->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves seeing new places and learning new things.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!-- End About Section -->
+
+        <!-- GitHub Section -->
+
+        <div class="Row" id="GitHub">
+            <!-- Left Column -->
+            <div class="Column_1">
+                <h1>Github</h1>
+                <p>
+                    You can view my coding projects on my Github profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/glarson1" target="_blank">Gabe Larson GitHub</a></p>
+                </p>
+            </div>
+            <!-- Right Column -->
+            <div class="Column_2">
+                <a href="https://github.com/glarson1" target="_blank"><img src="./Images/pngaaa.com-94893.png" alt="Github Logo"></a>
+            </div>
+        </div>
+
+        <!-- End GitHub Section -->
+
+        <!-- Contact Section -->
+
+        <div class="Row" id="Contact">
+            <!-- Contact image, left column -->
+            <div class="Column_2 Column_tall">
+                <img src="./Images/pexels-lukas-574070.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!-- End Contact Section -->
+
+        <!-- Footer Section -->
+
+        <footer>
+            <p>
+                Feel free to also reach out to me @:
+                <p class="inline"><a href="https://www.linkedin.com/in/gabriel-larson-256bb1216/" target="_blank">My Linkedin</a></p>
+                gabriel.g.larson@gmail.com
+                <br>
+            </p>
+        </footer>
+
+        <!-- End Footer Section -->
+
+    </body>
+</html>
