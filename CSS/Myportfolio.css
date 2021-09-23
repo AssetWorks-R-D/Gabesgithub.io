@@ -113,6 +113,13 @@ footer {
 
 /* ****End of General Styling*****/
 
+.logos img {
+   
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+}
+
 /* Navbar Styling */
 .Navbar {
     overflow: hidden;
