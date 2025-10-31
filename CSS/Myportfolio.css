@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+#bouncing-text {
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+}
